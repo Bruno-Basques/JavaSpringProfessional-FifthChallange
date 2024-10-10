@@ -11,7 +11,7 @@ import com.brunobasques_jsp.fifth_challange.entities.OrderItem;
 import com.brunobasques_jsp.fifth_challange.entities.Product;
 import com.brunobasques_jsp.fifth_challange.entities.User;
 import com.brunobasques_jsp.fifth_challange.entities.enumerators.OrderStatus;
-import com.brunobasques_jsp.fifth_challange.exceptions.ResourceNotFoundException;
+import com.brunobasques_jsp.fifth_challange.services.exceptions.ResourceNotFoundException;
 import com.brunobasques_jsp.fifth_challange.repositories.OrderItemRepository;
 import com.brunobasques_jsp.fifth_challange.repositories.OrderRepository;
 import com.brunobasques_jsp.fifth_challange.repositories.ProductRepository;

@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.brunobasques_jsp.fifth_challange.entities.User;
-import com.brunobasques_jsp.fifth_challange.exceptions.ForbiddenException;
+import com.brunobasques_jsp.fifth_challange.services.exceptions.ForbiddenException;
 
 @Service
 public class AuthService {

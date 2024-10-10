@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.brunobasques_jsp.fifth_challange.entities.Category;
 import com.brunobasques_jsp.fifth_challange.entities.Product;
-import com.brunobasques_jsp.fifth_challange.exceptions.DatabaseException;
-import com.brunobasques_jsp.fifth_challange.exceptions.ResourceNotFoundException;
+import com.brunobasques_jsp.fifth_challange.services.exceptions.DatabaseException;
+import com.brunobasques_jsp.fifth_challange.services.exceptions.ResourceNotFoundException;
 import com.brunobasques_jsp.fifth_challange.repositories.ProductRepository;
 
 import jakarta.persistence.EntityNotFoundException;
