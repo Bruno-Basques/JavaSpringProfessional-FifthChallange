@@ -1,7 +1,7 @@
 package com.brunobasques_jsp.fifth_challange.dtos;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -24,8 +24,11 @@ public class ProductDTO {
     private String imgUrl;
     
     @NotEmpty(message = "Deve ter pelo menos uma categoria")
-    private List<CategoryDTO> categories = new ArrayList<>();
+    private Set<CategoryDTO> categories = new HashSet<>();
 
+	public ProductDTO() {	
+	}
+	
     public ProductDTO(Long id, String name, String description, Double price, String imgUrl) {
         this.id = id;
         this.name = name;
@@ -74,11 +77,11 @@ public class ProductDTO {
 		this.imgUrl = imgUrl;
 	}
 
-	public List<CategoryDTO> getCategories() {
+	public Set<CategoryDTO> getCategories() {
 		return categories;
 	}
 
-	public void setCategories(List<CategoryDTO> categories) {
+	public void setCategories(Set<CategoryDTO> categories) {
 		this.categories = categories;
 	}   
 }
