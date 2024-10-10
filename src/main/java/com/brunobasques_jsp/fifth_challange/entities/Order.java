@@ -96,8 +96,12 @@ public class Order {
     public Set<OrderItem> getItems() {
         return items;
     }
+    
+    public void setItems(Set<OrderItem> items) {
+		this.items = items;
+	}
 
-    public List<Product> getProducts() {
+	public List<Product> getProducts() {
         return items.stream().map(x -> x.getProduct()).toList();
     }
 

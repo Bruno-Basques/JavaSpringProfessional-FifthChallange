@@ -93,11 +93,19 @@ public class Product {
 
     public Set<Category> getCategories() {
         return categories;
-    }
-    
-    public Set<OrderItem> getItems() {
+    } 
+     
+    public void setCategories(Set<Category> categories) {
+		this.categories = categories;
+	}
+
+	public Set<OrderItem> getItems() {
         return items;
     }
+	
+	public void setItems(Set<OrderItem> items) {
+		this.items = items;
+	}
 
     public List<Order> getOrders() {
         return items.stream().map(x -> x.getOrder()).toList();
