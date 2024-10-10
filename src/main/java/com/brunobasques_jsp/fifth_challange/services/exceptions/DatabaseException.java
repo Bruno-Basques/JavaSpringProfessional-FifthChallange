@@ -1,4 +1,4 @@
-package com.brunobasques_jsp.fifth_challange.service.exception;
+package com.brunobasques_jsp.fifth_challange.services.exceptions;
 
 @SuppressWarnings("serial")
 public class DatabaseException extends RuntimeException {
