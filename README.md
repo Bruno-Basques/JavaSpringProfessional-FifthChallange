@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-FifthChallenge é uma aplicação backend construída como atividade avaliativa do curso Java Spring Professional, ministrado pelo professor Nelio Alves (https://www.linkedin.com/in/nelio-alves/).
+FifthChallenge é uma aplicação backend construída como atividade avaliativa do curso Java Spring Professional, ministrado pelo professor ![Nelio Alves](https://www.linkedin.com/in/nelio-alves/).
 
 A aplicação consiste em um e-comerce simplificado, em que se pode realizar as operações de CRUD para produtos e pedidos, além da base para usuários. Os dados dessas operações são armazenados no banco local H2.
 
@@ -25,10 +25,10 @@ Pré-requisitos: Java 21
 
 ```bash
 # clonar repositório
-git clone [https://github.com/Bruno-Basques/JavaSpringProfessional-FifthChallange.git]
+git clone [https://github.com/Bruno-Basques/JavaSpringProfessional-FifthChallenge.git]
 
-# entrar na pasta do projeto back end
-cd backend
+# entrar na pasta do projeto JavaSpringProfessional-FifthChallenge
+cd JavaSpringProfessional-FifthChallenge
 
 # executar o projeto
 mvnw spring-boot:run
