@@ -8,8 +8,8 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.brunobasques_jsp.fifth_challange</groupId>
-	<artifactId>JavaSpringProfessionalFifthChallange</artifactId>
+	<groupId>com.brunobasques_jsp.fifth_challenge</groupId>
+	<artifactId>JavaSpringProfessionalFifthChallenge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JavaSpringProfessionalFifthChallange</name>
 	<description>Demo project for Spring Boot</description>
